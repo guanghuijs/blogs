@@ -7,9 +7,21 @@ export default {
     '主题配置',
     '全局api',
     'markdown指南',
-    'GitHubIssues集成评论',
+    'GitTalk集成评论',
+    'Giscus集成评论',
   ]),
   '/blogs/JavaScript/': readNoteFilesInDir('/blogs/JavaScript', []),
-  '/blogs/html/': readNoteFilesInDir('/blogs/html', []),
   '/blogs/vue/': readNoteFilesInDir('/blogs/vue', []),
+  '/blogs/git/': readNoteFilesInDir('/blogs/git', []),
+  '/ghui/': readNoteFilesInDir('/ghui', [
+    {
+      text: '引导',
+      dir: 'guide',
+      constants: ['简介', '快速上手', '搭建组件库流程'],
+    },
+    {
+      text: '组件',
+      dir: 'reference',
+    },
+  ]),
 };

@@ -6,7 +6,7 @@ import socialLinks from './socialLinks';
 
 // https://vitepress.dev/reference/default-theme-config
 export default {
-  logo: '/logo.webp', //logo
+  logo: { src: '/logo.webp' }, //页面头部logo
   //开启本地搜索
   search: {
     provider: 'local',

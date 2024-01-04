@@ -10,7 +10,8 @@
     "echarts": "^5.4.3",
     "gitalk": "^1.8.0",
     "md5": "^2.3.0",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "vue-ghui": "^1.0.4"
   },
   "devDependencies": {
     "@types/mockjs": "^1.0.8",
