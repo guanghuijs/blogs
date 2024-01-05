@@ -9,9 +9,10 @@ export default [
   {
     text: '博客',
     items: [
-      { text: 'JavaScript', link: '/blogs/JavaScript/基础' },
+      { text: 'css', link: '/blogs/css/常用片段' },
+      { text: 'JavaScript', link: '/blogs/JavaScript/JS基础' },
       { text: 'vue', link: '/blogs/vue/vue2' },
-      { text: 'git', link: '/blogs/git/ssh' },
+      { text: 'cmd', link: '/blogs/cmd' },
       { text: 'vitepress', link: '/blogs/vitepress/项目初始化' },
     ],
   },

@@ -2,45 +2,45 @@
 # https://vitepress.dev/zh/reference/default-theme-home-page
 layout: home
 
-title: GH BLOGS
-titleTemplate: 逝者如斯夫,不舍昼夜。
+title: GUANGHUI's BLOGS
+titleTemplate: 
 
 hero:
-  name: "GH BLOGS"
-  text: 🍂🌻🌼🌷🌱🌲🌴
-  tagline: 🍂🌻🌼🌷🌱🌲🌴
+  name: "GUANGHUI's BLOGS"
+  text: 📌. 1️⃣📝🌎
+  tagline: 喜欢👩‍🎤💃🗣️🏀
   actions:
     - theme: brand
       text: GHUI
-      link: /ghui/搭建组件库流程
+      link: /ghui/guide/搭建组件库流程
     - theme: alt
-      text: GH BLOGS
+      text: GH's BLOGS
       link: /api-examples
   image:
     src: /logo.webp
 
 features:
-- icon: 🍂
+- icon: 🛞
   title: 组件库
   details: 一个写起玩的移动端UI库
-  link: /ghui/简介
+  link: /ghui/guide/简介
 
-- icon: 🌻
+- icon: 📝
   title: 博客
   details: 日常工作、学习踩坑记录
   link: /blogs/JS基础
 
-- icon: 🌼
+- icon: 🌎
   title: 常用网站
   details: 常用网站传送门
   link: /webpage
 
-- icon: 🌷
+- icon: 🖥️
   title: ReactMacOs
   details: React mac 桌面系统
   link: https://guanghuijs.gitee.io/react-mac-os-ui
 
-- icon: 🌱
+- icon: 💾
   title: 算法
   details: 我不会算法
   link: /blogs/frame/system/vue3
@@ -50,7 +50,7 @@ features:
   details: 迷茫的时候看一看
   link: /blogs/frame/system/vue3
 
-- icon: 🌴
+- icon: 📑
   title: 日记
   details: 日常工作、学习踩坑记录
   link: /blogs/frame/system/vue3

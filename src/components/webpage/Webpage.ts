@@ -55,12 +55,12 @@ export const webpage: Webpage[] = [
       { text: '百度', icon: BAIDU, href: 'https://www.baidu.com' },
       { text: '哔哩哔哩', icon: BILI, href: 'https://search.bilibili.com/' },
       { text: 'CSDN', icon: CSDN, href: 'https://so.csdn.net/so/search' },
+      { text: '阮一峰博客', icon: DEFAULT, href: 'http://www.ruanyifeng.com/blog/' },
       {
         text: '百度翻译',
         icon: FANYI,
         href: 'https://fanyi.baidu.com/translate#zh/en/',
       },
-      { text: 'iconfont', icon: Iconfont, href: 'https://www.iconfont.cn/' },
       {
         text: '爱激活',
         icon: DEFAULT,
@@ -244,8 +244,9 @@ export const webpage: Webpage[] = [
     webpages: [],
   },
   {
-    title: 'Emoji',
+    title: '图标库',
     webpages: [
+      { text: 'iconfont', icon: Iconfont, href: 'https://www.iconfont.cn/' },
       {
         text: 'searchemoji',
         icon: DEFAULT,
@@ -255,6 +256,21 @@ export const webpage: Webpage[] = [
         text: 'markdown-it-emoji',
         icon: DEFAULT,
         href: 'https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs',
+      },
+      {
+        text: 'yesicon',
+        icon: DEFAULT,
+        href: 'https://yesicon.app/',
+      },
+    ],
+  },
+  {
+    title: '好玩的网页',
+    webpages: [
+      {
+        text: 'vue挑战',
+        href: 'https://cn-vuejs-challenges.netlify.app/',
+        icon: DEFAULT,
       },
     ],
   },
