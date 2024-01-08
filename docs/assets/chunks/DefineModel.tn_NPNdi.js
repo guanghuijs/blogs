@@ -1,0 +1,1 @@
+import{ax as t,w as s,ay as u,o as d,b as m}from"./framework.nAclW6lK.js";const i={__name:"DefineModel",props:{modelValue:{},modelModifiers:{}},emits:["update:modelValue"],setup(o){const e=t(o,"modelValue");return(n,l)=>s((d(),m("input",{"onUpdate:modelValue":l[0]||(l[0]=a=>e.value=a)},null,512)),[[u,e.value]])}};export{i as _};
