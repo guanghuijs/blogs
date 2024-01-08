@@ -11,10 +11,10 @@ hero:
   tagline: 喜欢👩‍🎤💃🗣️🏀
   actions:
     - theme: brand
-      text: GHUI
+      text: 🔩GHUI🍀
       link: /ghui/guide/搭建组件库流程
     - theme: alt
-      text: GH's BLOGS
+      text: 📝GH's BLOGS🌿
       link: /api-examples
   image:
     src: /logo.webp
@@ -28,7 +28,7 @@ features:
 - icon: 📝
   title: 博客
   details: 日常工作、学习踩坑记录
-  link: /blogs/JS基础
+  link: /blogs/JavaScript/JS基础
 
 - icon: 🌎
   title: 常用网站

@@ -14,6 +14,7 @@ export default [
       { text: 'vue', link: '/blogs/vue/vue2' },
       { text: 'cmd', link: '/blogs/cmd' },
       { text: 'vitepress', link: '/blogs/vitepress/项目初始化' },
+      { text: 'architect', link: '/blogs/architect/vite' },
     ],
   },
 ] as DefaultTheme.NavItem[];

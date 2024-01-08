@@ -28,7 +28,7 @@ export default {
   //跳转到仓库编辑
   editLink: {
     text: '在github编辑该页面',
-    pattern: 'https://github.com/SheenJs/gh-blogs/tree/main/src/:path',
+    pattern: 'https://github.com/guanghuijs/blogs/tree/main/src/:path',
   },
   markdown: {
     lineNumbers: true,

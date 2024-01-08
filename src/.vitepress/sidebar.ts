@@ -57,6 +57,7 @@ export default {
       ],
     },
   ]),
+  '/blogs/architect': readNoteFilesInDir('/blogs/architect'),
   '/ghui/': readNoteFilesInDir('/ghui', [
     {
       text: '引导',

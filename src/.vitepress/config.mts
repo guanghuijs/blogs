@@ -7,8 +7,6 @@ export default defineConfig({
   base: '/blogs/', //网站base url,如果你想部署到码云、github,需要与仓库名一样
   outDir: './../docs', //打包输出目录
   title: "GUANGHUI's BLOGS", //网站标题
-  titleTemplate: "GUANGHUI's BLOGS", //网站副标题
-  description: '你才是小黑子',
   markdown: {
     config: (md) => {
       md.use(demoblockPlugin);

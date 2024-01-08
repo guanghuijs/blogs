@@ -1,4 +1,5 @@
-[vite](https://cn.vitejs.dev/)
+# 🛠️[vite](https://cn.vitejs.dev/)
+
 ## 什么是构建工具
 我们写的代码一变化 ---> 有人帮我们自动去tsc, react-compiler, less, babel, uglifyjs全部挨个走一遍 ---> js
 这个东西就叫做**构建工具**
