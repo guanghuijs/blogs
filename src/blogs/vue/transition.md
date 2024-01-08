@@ -174,7 +174,7 @@
 <script setup lang='ts'>
   import { ref } from 'vue';
   import mock from 'mockjs';
-  import MyTransition from "./components/transition.vue";
+  import MyTransition from "/components/vue/transition.vue";
   const num = ref(0)
   const toggle = () => {
     num.value = mock.Random.integer(0,2);

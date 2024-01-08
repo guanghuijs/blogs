@@ -2,6 +2,54 @@
 
 ## cmd
 
+- 启动cmd
+  - 用户启动，`win + r` 输入cmd，`enter`
+  - 管理员启动，`win + r` 输入cmd，`ctrl+shift+enter`
+
+- 切换盘符
+```bash
+c:
+d:
+```
+- 进入子目录
+```bash
+cd work
+```
+- 回到所在磁盘根目录
+```bash
+cd /
+```
+- 返回上一级
+```bash
+cd ..
+````
+- 打开文件/文件夹
+```bash
+start test/test.txt
+```
+- 新建文件/文件夹
+```bash
+dir test/echo 这个内容 > test.txt[echo null > test.txt]
+```
+- 删除文件/文件夹
+```bash
+del fileName.text
+del *.text // 删除指定类似文件
+re foldername
+```
+- 查看隐藏文件夹
+```bash
+dir /?
+```
+- 复制文件
+```bash
+copy 路径\文件名 路径\文件名
+```
+- 移动文件
+```bash
+move 路径\文件名 路径\文件名
+```
+
 ## nvm
 
 :::tip 🍍 写在最前

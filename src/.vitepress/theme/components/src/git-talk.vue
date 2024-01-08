@@ -14,12 +14,12 @@
     },
     mounted() {
       const commentConfig = {
-        clientID: 'e190beeabc9315d3328f',
-        clientSecret: 'e4b8a3c855443d84b422e6dd8dce557e4fe20d74',
-        repo: 'gh-blogs',
-        owner: 'SheenJs',
-        admin: ['SheenJs'],
-        id: md5(location.pathname),
+        clientID: '792d92e60c7cc1927e70', // 创建GitHub Application生成
+        clientSecret: '7ee8730da2c40fa456a140dc4ea9cf45bd6cf529', // `Generate a new client secret`生成
+        repo: 'blogs', // 博客仓库名
+        owner: 'guanghuijs', // 自己的GitHub名
+        admin: ['guanghuijs'], // 自己的GitHub名
+        id: md5(location.pathname), // 页面的唯一标识。长度必须小于50。
         distractionFreeMode: false,
       };
       const gitalk = new Gitalk(commentConfig);
