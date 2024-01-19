@@ -320,3 +320,12 @@ pnpm ls
 ```bash
 pnpm un/rm/remove/uninstall packageName
 ```
+
+
+## npm 发布包
+```bash
+npm adduser
+npm login
+npm config set proxy false
+npm publish
+```
