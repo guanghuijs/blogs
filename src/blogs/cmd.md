@@ -77,8 +77,8 @@ nvm current
 ### ssh
 - 设置用户信息
 ```bash
-git config --global use.name 'username'
-git config --global use.email 'email'
+git config --global user.name 'username'
+git config --global user.email 'email'
 ```
 - 生成key
 ```bash
@@ -96,6 +96,21 @@ ssh-keygen -t rsa -b 4096 -C "email"
   - git log / git reflog 查看当前版本库中都有哪些版本
   - git reset --hard 版本号 版本之间进行切换
   - git checkout branchName 切换分支
+
+- 检测 ssh连接
+  ```bash
+  ssh -T git@github.com
+  ```
+
+- ssh配置文件(config)
+  ```bash
+  Host github.com
+  User xxxxqq.com
+  Hostname ssh.github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa
+  Port 443
+  ```
 
 ### 跳过eslint校验提交
 ```bash
