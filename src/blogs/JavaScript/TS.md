@@ -659,4 +659,15 @@ const a:string | number = 1
 console.log(a); // 100000000
 ```
 
+## ts忽略校验
+
+```ts
+// @ts-nocheck 忽略全文,要写到首行
+import { onMounted, ref } from 'vue';
+// @ts-ignore 忽略单行校验
+import { loadBMapGL } from '@/utils';
+```
+
+
+
 <git-talk />

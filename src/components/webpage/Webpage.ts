@@ -10,6 +10,8 @@ import swiper from './image/swiper.png';
 import Iconfont from './image/Iconfont.png';
 import mdnwebdocs from './image/mdnwebdocs.png';
 import css from './image/css.png';
+import sass from './image/sass.png';
+import less from './image/less.png';
 import echarts from './image/echarts.png';
 import vpn from './image/vpn.png';
 
@@ -22,6 +24,7 @@ import vite from './image/vite.png';
 import vant from './image/vant.png';
 import vitepress from './image/vitepress.webp';
 import naiveUi from './image/naive-ui.png';
+import vueChallenges from './image/vueChallenges.png';
 
 //小程序
 import mini_program from './image/mini_program.png';
@@ -131,6 +134,11 @@ export const webpage: Webpage[] = [
         icon: vitepress,
         href: 'https://vitejs.cn/vitepress/',
       },
+      {
+        text: 'vue挑战',
+        href: 'https://cn-vuejs-challenges.netlify.app/',
+        icon: vueChallenges,
+      },
     ],
   },
   {
@@ -166,6 +174,16 @@ export const webpage: Webpage[] = [
   {
     title: 'CSS',
     webpages: [
+      {
+        text: 'scss',
+        icon: sass,
+        href: 'https://www.sass.hk/docs/',
+      },
+      {
+        text: 'less',
+        icon: less,
+        href: 'https://lesscss.cn/features/',
+      },
       {
         text: 'COCO CSS',
         icon: css,
@@ -247,31 +265,14 @@ export const webpage: Webpage[] = [
     title: '图标库',
     webpages: [
       { text: 'iconfont', icon: Iconfont, href: 'https://www.iconfont.cn/' },
-      {
-        text: 'searchemoji',
-        icon: DEFAULT,
-        href: 'https://searchemoji.app/',
-      },
+      { text: 'xicons', icon: DEFAULT, href: 'https://xicons.org/' },
+      { text: 'searchemoji', icon: DEFAULT, href: 'https://searchemoji.app/' },
       {
         text: 'markdown-it-emoji',
         icon: DEFAULT,
         href: 'https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs',
       },
-      {
-        text: 'yesicon',
-        icon: DEFAULT,
-        href: 'https://yesicon.app/',
-      },
-    ],
-  },
-  {
-    title: '好玩的网页',
-    webpages: [
-      {
-        text: 'vue挑战',
-        href: 'https://cn-vuejs-challenges.netlify.app/',
-        icon: DEFAULT,
-      },
+      { text: 'yesicon', icon: DEFAULT, href: 'https://yesicon.app/' },
     ],
   },
 ];
