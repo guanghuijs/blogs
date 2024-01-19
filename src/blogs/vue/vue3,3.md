@@ -97,48 +97,6 @@ export default defineConfig({
 </template>
 ```
 
-* 使用
-
-:::demo
-```vue
-<template>
-  <a-button @click='change'>change</a-button>
-  <ReactiveProps v-bind='user'></ReactiveProps>
-</template>
-<script lang='ts' setup>
-  import { ReactiveProps } from '/components';
-  import { ref } from 'vue';
-  const user = ref({
-    name: 1,
-    age: 18
-  })
-
-  const change = () => {
-    user.value = {
-      name: Math.random(),
-      age: Math.random()
-    }
-  }
-</script>
-```
-:::
-
-
-## defineModel
-
-* config中开启defineModel
-```js
-export default defineConfig({
-  // ...
-  vue: {
-    script: {
-      defineModel: true,
-    },
-  },
-  // ...
-});
-```
-
 * 定义子组件
 ```vue
 <script setup>

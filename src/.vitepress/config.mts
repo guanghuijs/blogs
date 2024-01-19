@@ -28,7 +28,6 @@ export default defineConfig({
   },
   vue: {
     script: {
-      propsDestructure: true,
       defineModel: true,
     },
   },
