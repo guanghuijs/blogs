@@ -58,6 +58,7 @@ export default {
     },
   ]),
   '/blogs/architect': readNoteFilesInDir('/blogs/architect'),
+  '/blogs/flutter': readNoteFilesInDir('/blogs/flutter', ['环境安装', 'dart基础']),
   '/ghui/': readNoteFilesInDir('/ghui', [
     {
       text: '引导',
