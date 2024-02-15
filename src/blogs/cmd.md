@@ -305,7 +305,7 @@ pnpm config get registry
 ```
 * pnpm设置淘宝镜像
 ```bash
-pnpm config set registry https://registry.npm.taobao.org/
+pnpm config set registry https://registry.npmmirror.com
 ```
 * 查看pnpm版本
 ```bash
