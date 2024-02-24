@@ -11,7 +11,6 @@ lerna-debug.log*
 /src/.vitepress/cache
 /back
 
-*-lock.yaml
 *.rar
 
 node_modules
