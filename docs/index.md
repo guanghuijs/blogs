@@ -28,7 +28,7 @@ features:
 - icon: 📝
   title: 博客
   details: 日常工作、学习踩坑记录
-  link: /blogs/JavaScript/JS基础
+  link: /JavaScript/JS基础
 
 - icon: 🌎
   title: 常用网站
@@ -43,7 +43,6 @@ features:
 - icon: 💾
   title: 算法
   details: 我不会算法
-  link: /blogs/frame/system/vue3
 
 - icon: 🌲
   title: 励志文学
@@ -53,7 +52,7 @@ features:
 - icon: 📑
   title: 日记
   details: 日常工作、学习踩坑记录
-  link: /blogs/frame/system/vue3
+
 ---
 <git-talk style="padding: 0 24px" />
 
