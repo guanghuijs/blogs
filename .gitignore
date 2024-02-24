@@ -14,7 +14,6 @@ lerna-debug.log*
 *-lock.yaml
 *.rar
 
-docs_back
 node_modules
 dist-ssr
 *.local
@@ -29,4 +28,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-/back/

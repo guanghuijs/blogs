@@ -21,7 +21,7 @@ export const searchHref = [
 ];
 
 Object.keys(BG).forEach((key) => {
-  bgList.push('/blogs' + key.substring(7));
+  bgList.push(key.substring(7));
 });
 
 export { bgList, SEARCH_ICON_LIST };

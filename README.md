@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="logo" src="src/public/logo.webp" width="240" height="240" >
+    <img alt="logo" src="docs/public/logo.webp" width="240" height="240" >
 </div>
 <h3 align="center">📌一个基于<a href="https://vitepress.dev/zh" target="_blank">vitepress</a>搭建的静态博客网页。</h3>
 <p style="font-size: 36px;font-weight: bold" align="center">GUANGHUI's BLOGS</p>

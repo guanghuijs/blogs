@@ -47,7 +47,6 @@ features:
 - icon: 🌲
   title: 励志文学
   details: 迷茫的时候看一看
-  link: /blogs/frame/system/vue3
 
 - icon: 📑
   title: 日记
