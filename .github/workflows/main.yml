@@ -41,11 +41,12 @@ jobs:
         with:
           node-version: 20
           cache: pnpm # 或 pnpm / yarn
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
       - name: Configure pnpm mirror
         env:
           PNPM_REGISTRY_MIRROR: 'https://registry.npmmirror.com/'
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
