@@ -36,14 +36,20 @@ jobs:
         with:
           version: 8
       # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
+      - name: Install pnpx globally
+        run: |
+          curl https://get.pnpx.io/installer.sh | sh
+          
+      - name: Configure pnpm mirror
+        env:
+          PNPM_REGISTRY_MIRROR: 'https://registry.npmmirror.com/'
+          
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm # 或 pnpm / yarn
-      - name: Configure pnpm mirror
-        env:
-          PNPM_REGISTRY_MIRROR: 'https://registry.npmmirror.com/'
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
