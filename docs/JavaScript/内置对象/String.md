@@ -33,7 +33,7 @@
 ```vue
 <template>
   <a-input placeholder='请输入' v-model:value='value'></a-input>
-  <div>{{value.replace(/(.{4})/g,'$1 ')}}</div>
+  <div>{{value.replace(RegExp(/(.{4})/g),'$1 ')}}</div>
 </template>
 <script lang='ts' setup>
   import {ref} from 'vue';
@@ -57,3 +57,7 @@
 </script>
 ```
 :::
+
+```ts
+
+```
