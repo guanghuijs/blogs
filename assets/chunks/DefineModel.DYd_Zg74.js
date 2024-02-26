@@ -1,0 +1,1 @@
+import{ax as t,m as s,ay as u,V as m,W as d}from"./framework.bXfzgsRM.js";const i={__name:"DefineModel",props:{modelValue:{},modelModifiers:{}},emits:["update:modelValue"],setup(o){const e=t(o,"modelValue");return(n,l)=>s((m(),d("input",{"onUpdate:modelValue":l[0]||(l[0]=a=>e.value=a)},null,512)),[[u,e.value]])}};export{i as _};
