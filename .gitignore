@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # .vitepress
-/src/.vitepress/cache
+/docs/.vitepress/cache
 /back
 
 *.rar
