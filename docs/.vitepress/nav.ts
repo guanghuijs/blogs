@@ -21,7 +21,7 @@ export default [
       { text: 'vue', activeMatch: '/vue/', link: '/vue/1.vue2' },
       { text: 'cmd', activeMatch: '/cmd/', link: '/cmd' },
       { text: 'vitepress', activeMatch: '/vitepress/', link: '/vitepress/1.项目初始化' },
-      { text: 'flutter', activeMatch: '/flutter/', link: '/flutter/1.环境安装' },
+      { text: 'flutter', activeMatch: '/flutter/', link: '/flutter/dart/1.语法基础' },
       { text: 'architect', activeMatch: '/architect/', link: '/architect/vite' },
     ],
   },
