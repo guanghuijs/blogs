@@ -1,0 +1,46 @@
+name: Build and Deploy
+# 监听 master 分支上的 push 事件
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    # 构建环境使用 ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      # 官方action, 将代码拉取到虚拟机
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      # 设置使用 Node.js 版本
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # 使用 最新的 PNPM
+      # 你也可以指定为具体的版本
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: latest
+          # version: 9
+          run_install: false
+
+      # 下载依赖、打包项目
+      - name: Install and Build
+        run: |
+          pnpm install
+          pnpm build
+
+      # 部署
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          # 项目配置的打包目录名称
+          folder: dist
+          # 提交分支名
+          branch: pages
