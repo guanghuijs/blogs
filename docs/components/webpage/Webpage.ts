@@ -16,7 +16,7 @@ import echarts from './image/echarts.png';
 import vpn from './image/vpn.png';
 
 // vue
-import VUE from './image/vue.png';
+import VUE from './image/Vue.png';
 import antd from './image/antd.png';
 import vben from './image/vben.jpg';
 import vueuse from './image/vueuse.png';
