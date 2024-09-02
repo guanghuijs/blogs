@@ -1,5 +1,5 @@
 # Toast（轻提示）
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/tree' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/tree' />
 
 ## 用例代码
 ```vue

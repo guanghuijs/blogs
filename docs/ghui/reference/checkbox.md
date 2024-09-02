@@ -1,5 +1,5 @@
 # 复选框
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/checkbox' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/checkbox' />
 
 ## 基础用法
 ```vue

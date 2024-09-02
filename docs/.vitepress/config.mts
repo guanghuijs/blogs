@@ -33,7 +33,4 @@ export default defineConfig({
   },
   head: [['link', { rel: 'icon', type: 'image/webp', href: '/blogs/logo.webp' }]], //网页logo配置,浏览器tab页logo
   themeConfig, //主题配置
-  rewrites: {
-    // 'blogs/:module/:article':':module/:article'
-  },
 });

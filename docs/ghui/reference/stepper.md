@@ -1,5 +1,5 @@
 # 进步器
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/stepper' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/stepper' />
 
 ## 基础用法
 ```vue

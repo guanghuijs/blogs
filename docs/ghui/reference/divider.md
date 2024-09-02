@@ -1,5 +1,5 @@
 # 分割线
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/divider' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/divider' />
 
 ## 基础用法
 ```html

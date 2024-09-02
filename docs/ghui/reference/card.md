@@ -1,5 +1,5 @@
 # 卡片
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/card' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/card' />
 
 ## 普通用法
 ```vue

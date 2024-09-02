@@ -1,6 +1,6 @@
 # 图标
 
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/icon' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/icon' />
 
 ## 附带图标库
 <GhuiIcon />

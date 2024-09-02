@@ -1,5 +1,5 @@
 # 进度条
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/progressBar' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/progressBar' />
 
 ## 基础用法
 ```vue

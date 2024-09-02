@@ -51,11 +51,11 @@ features:
 - icon: 📑
   title: 日记
   details: 日常工作、学习踩坑记录
-
 ---
-<git-talk style="padding: 0 24px" />
 
-<Home />
+<git-talk style="padding: 0 24px"></git-talk>
+
+<Home></Home>
 
 <script setup lang='ts'>
 import { Home } from '/components'

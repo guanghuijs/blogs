@@ -1,7 +1,7 @@
 <script lang="ts" setup>
   import { ref } from 'vue';
   import { useClipboard } from '@vueuse/core';
-  import { toast } from 'vue-ghui';
+  import { toast } from 'guanghui-ui';
   import { iconList } from './data';
 
   const source = ref('');

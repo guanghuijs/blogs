@@ -38,4 +38,5 @@ export default {
     message: '',
     copyright: 'Copyright © 2023 YGHHJS',
   },
+
 } as DefaultTheme.Config;

@@ -1,5 +1,5 @@
 # 分割线
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/loading' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/loading' />
 
 ## 动画类型
 ```html

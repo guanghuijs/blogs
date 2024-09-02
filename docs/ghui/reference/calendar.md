@@ -1,5 +1,5 @@
 # Calendar（日历选择器）
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/calendar' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/calendar' />
 
 ## 基础用法
 ```vue

@@ -1,5 +1,5 @@
 # 倒计时
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/countdown' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/countdown' />
 
 ## 基础用法
 ```html
@@ -56,7 +56,7 @@
 ## 使用钩子函数控制
 ```vue
 <script setup lang="ts">
-import { useCountDown } from 'vue-ghui';
+import { useCountDown } from 'guanghui-ui';
 const [register, { resume, pause }] = useCountDown({
   time: '30m',
 });

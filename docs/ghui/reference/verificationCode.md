@@ -1,5 +1,5 @@
 # Toast（轻提示）
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/verificationCode' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/verificationCode' />
 
 ## 用例代码
 ```vue
@@ -11,8 +11,8 @@
 </template>
 <script lang="ts" setup>
   import { ref, unref } from 'vue';
-  import { toast } from 'vue-ghui';
-  import type { TVerificationCode } from 'vue-ghui/type';
+  import { toast } from 'guanghui-ui';
+  import type { TVerificationCode } from 'guanghui-ui/type';
   const codeRef = ref<TVerificationCode | null>();
   const getCode = () => {
     const code = unref(codeRef)?.getCode();

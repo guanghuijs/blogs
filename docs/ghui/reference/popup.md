@@ -1,5 +1,5 @@
 # Popup
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/popup' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/popup' />
 
 ## 不同方向
 ```html

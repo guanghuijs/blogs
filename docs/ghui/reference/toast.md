@@ -1,10 +1,10 @@
 # Toast（轻提示）
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/toast' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/toast' />
 
 ## 基础用法
 ```vue
 <script setup lang="ts">
-  import {toast, hiddenToast} from 'vue-ghui';
+  import {toast, hiddenToast} from 'guanghui-ui';
 </script>
 <template>
   <h-card title="基础用法">
@@ -15,7 +15,7 @@
 ## 使用图标
 ```vue
 <script setup lang="ts">
-  import {toast, hiddenToast} from 'vue-ghui';
+  import {toast, hiddenToast} from 'guanghui-ui';
 </script>
 <template>
   <h-card title="使用图标">
@@ -28,7 +28,7 @@
 ## 跟隐藏钩子函数配合使用
 ```vue
 <script setup lang="ts">
-  import {toast, hiddenToast} from 'vue-ghui';
+  import {toast, hiddenToast} from 'guanghui-ui';
 </script>
 <template>
   <h-card title="跟隐藏钩子函数配合使用">

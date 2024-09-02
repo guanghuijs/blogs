@@ -1,5 +1,5 @@
 # 开关
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/switch' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/switch' />
 
 ## 基础用法
 ```vue

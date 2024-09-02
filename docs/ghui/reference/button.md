@@ -38,7 +38,7 @@
 </h-card>
 ```
 
-<t-frame src='https://guanghuijs.gitee.io/ghui-next/#/button' />
+<t-frame src='https://guanghuijs.github.io/guanghui-ui/#/button' />
 
 
 
