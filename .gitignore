@@ -10,6 +10,7 @@ lerna-debug.log*
 # .vitepress
 /docs/.vitepress/cache
 /back
+/dist
 
 *.rar
 
