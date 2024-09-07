@@ -1,3 +1,4 @@
+<!--基于GitHub仓库集成评论组件-->
 <template>
   <div class="gitalk" v-bind="$attrs">
     <div id="gitalk-container"></div>
@@ -13,9 +14,10 @@
       return {};
     },
     mounted() {
+      // 需要去自己代码仓库添加,可以参考vitepress目录下的 6.GitTalk集成评论
       const commentConfig = {
-        clientID: '792d92e60c7cc1927e70', // 创建GitHub Application生成
-        clientSecret: '7ee8730da2c40fa456a140dc4ea9cf45bd6cf529', // `Generate a new client secret`生成
+        clientID: '792d92*****27e70', // 创建GitHub Application生成
+        clientSecret: '7ee8730da2c40f****9cf45bd6cf529', // `Generate a new client secret`生成
         repo: 'blogs', // 博客仓库名
         owner: 'guanghuijs', // 自己的GitHub名
         admin: ['guanghuijs'], // 自己的GitHub名

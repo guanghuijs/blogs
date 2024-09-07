@@ -20,43 +20,13 @@ hero:
     src: /logo.webp
 
 features:
-- icon: 🛞
-  title: 组件库
-  details: 一个写起玩的移动端UI库
-  link: /ghui/guide/简介
-
 - icon: 📝
-  title: 博客
-  details: 日常工作、学习踩坑记录
-  link: /JavaScript/JS基础
+  title: vitepress
+  details: vitepress学习
+  link: /vitepress/1.项目初始化
 
-- icon: 🌎
-  title: 常用网站
-  details: 常用网站传送门
-  link: /webpage
-
-- icon: 🖥️
-  title: ReactMacOs
-  details: React mac 桌面系统
-  link: https://guanghuijs.gitee.io/react-mac-os-ui
-
-- icon: 💾
-  title: 算法
-  details: 我不会算法
-
-- icon: 🌲
-  title: 励志文学
-  details: 迷茫的时候看一看
-
-- icon: 📑
-  title: 日记
-  details: 日常工作、学习踩坑记录
+- icon: 🛞
+  title: test
+  details: 测试
+  link: /test/test
 ---
-
-<git-talk style="padding: 0 24px"></git-talk>
-
-<Home></Home>
-
-<script setup lang='ts'>
-import { Home } from '/components'
-</script>

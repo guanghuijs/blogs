@@ -4,7 +4,6 @@ import Theme from 'vitepress/theme';
 import { useComponents } from './useComponents';
 import './style.less';
 import 'ant-design-vue/dist/reset.css';
-import 'guanghui-ui/lib/style.css';
 
 export default {
   extends: Theme,

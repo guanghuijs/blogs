@@ -7,17 +7,13 @@
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.0",
     "ant-design-vue": "4.x",
-    "echarts": "^5.4.3",
     "gitalk": "^1.8.0",
-    "guanghui-ui": "^0.0.4",
     "md5": "^2.3.0",
     "sass": "^1.69.5"
   },
   "devDependencies": {
     "@types/mockjs": "^1.0.8",
     "@vitejs/plugin-vue": "^4.0.0",
-    "@vueuse/core": "^10.4.1",
-    "axios": "^1.5.1",
     "less": "^4.2.0",
     "mockjs": "^1.1.0",
     "prettier": "^2.8.4",
