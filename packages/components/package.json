@@ -1,0 +1,13 @@
+{
+  "name": "@packages/components",
+  "version": "1.0.0",
+  "description": "组件",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "default": "./index.ts"
+    }
+  }
+}

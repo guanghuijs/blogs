@@ -1,27 +1,32 @@
 <script setup lang="ts">
   import { onMounted, ref } from 'vue';
   import { useNow, useDateFormat } from '@vueuse/core';
-  import axios from 'axios';
-  import mock from 'mockjs';
-  import { bgList } from './utils';
-  import Search from './Search.vue';
 
-  const mockBg = ref(`url(${bgList[mock.Random.integer(0, 10)]}) no-repeat center / cover`);
   const show = ref(false);
-  const keyUpStr = ref('');
+
+  import mockJs from 'mockjs';
+  import { backgroundImages } from '@packages/public';
+  const mockBg = ref(
+    `url(${backgroundImages[mockJs.Random.integer(0, 9)]}) no-repeat center / cover`
+  );
 
   const time = useDateFormat(useNow(), 'HH : mm');
   const date = useDateFormat(useNow(), 'MM 月 DD 日');
 
-  const weather = ref<any>({});
+  // 天气
+  // import axios from 'axios';
+  // const weather = ref<any>({});
+  // onMounted(() => {
+  //   axios
+  //     .get('https://www.yiketianqi.com/free/day?appid=36393322&appsecret=tK3XR3HX&unescape=1&city=')
+  //     .then((res) => {
+  //       weather.value = res.data;
+  //     });
+  // });
 
+  // 搜索
+  const keyUpStr = ref('');
   onMounted(() => {
-    axios
-      .get('https://www.yiketianqi.com/free/day?appid=36393322&appsecret=tK3XR3HX&unescape=1&city=')
-      .then((res) => {
-        weather.value = res.data;
-      });
-
     document.addEventListener('keydown', ({ key }) => {
       keyUpStr.value += key;
       if (/.*?search$/g.test(keyUpStr.value)) {
@@ -32,6 +37,7 @@
       }
     });
   });
+  import Search from './Search.vue';
 </script>
 
 <template>
@@ -41,7 +47,7 @@
       {{ date }}
       周{{ ['日', '一', '二', '三', '四', '五', '六'][new Date().getDay()] }}
     </div>
-    <div>
+    <div v-if="0">
       {{ weather?.city }} {{ weather?.wea }} {{ weather?.tem_day }}℃ ~ {{ weather?.tem_night }}℃
     </div>
     <div class="search">

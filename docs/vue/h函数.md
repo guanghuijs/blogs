@@ -72,7 +72,7 @@ type Slots = { [name: string]: Slot };
 
 <script setup lang="ts">
   import { h, onMounted, render } from 'vue';
-  import {Button as AButton} from 'ant-design-vue'
+  import { Button as AButton } from 'ant-design-vue'
 
   onMounted(() => {
     hComp();
@@ -167,9 +167,49 @@ type Slots = { [name: string]: Slot };
 </template>
 
 <script setup lang="ts">
-  import { columns, list } from './utils/data.ts';
+  import { h } from 'vue';
+  import  mockJs from 'mockjs';
+  import { Tag as ATag } from 'ant-design-vue';
+  
+  const list = Array.from({ length: 50 }, () => ({
+    name: mockJs.mock('@cname'),
+    age: mockJs.Random.integer(8, 12),
+    score: mockJs.Random.integer(55, 95),
+  }));
+
+  const columns = [
+    {
+      title: 'Name',
+      dataIndex: 'name',
+    },
+    {
+      title: 'Age',
+      dataIndex: 'age',
+    },
+    {
+      title: 'Score',
+      dataIndex: 'score',
+    },
+    {
+      title: 'Tag',
+      dataIndex: 'tag',
+      customRender: (a) => {
+        console.log(a);
+        const score = a.record['score'];
+        if (score >= 90) {
+          return h(ATag, { innerText: '优', color: '#108EE9' });
+        } else if (score >= 80 && score < 90) {
+          return h(ATag, { innerText: '良', color: '#2DB7F5' });
+        } else if (score < 80 && score >= 60) {
+          return h(ATag, { innerText: '中', color: '#87D068' });
+        } else {
+          return h(ATag, { innerText: '差', color: '#FF5500' });
+        }
+      },
+    },
+  ];
 </script>
 ```
 :::
 
-<git-talk />
+<git-talk></git-talk>

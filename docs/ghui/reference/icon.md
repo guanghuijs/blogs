@@ -34,7 +34,7 @@
 ```
 
 <script setup>
-import { GhuiIcon } from '/components';
+import { GhuiIcon } from '@packages/components';
 </script>
 
 

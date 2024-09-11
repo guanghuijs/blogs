@@ -102,13 +102,13 @@
 ```vue
 <script setup lang="ts">
   import { ref } from 'vue';
-  import mock from 'mockjs';
+  import mockJs from 'mockjs';
 
   const names = ['', 'fade', 'bounce'];
   const name = ref('');
   const onEnter = () => {};
   const onLeave = () => {
-    name.value = name[mock.Random.integer(0, 2)];
+    name.value = name[mockJs.Random.integer(0, 2)];
   };
 </script>
 
@@ -161,20 +161,19 @@
 :::
 
 :::demo
-
 ```vue
 <template>
   <a-button @click='toggle'>toggle</a-button>
-  <MyTransition mode='out-in'>
+  <TTransition mode='out-in'>
     <div v-if='num === 0' style='background: pink'>喜欢唱跳rap篮球</div>
     <div v-else-if='num === 1' style='width: 100px;height: 100px;background: blue'>你干嘛,哎呦</div>
     <div v-else-if='num === 2'>食不食油饼</div>
-  </MyTransition>
+  </TTransition>
 </template>
 <script setup lang='ts'>
   import { ref } from 'vue';
   import mock from 'mockjs';
-  import MyTransition from "/components/vue/transition.vue";
+  import { TTransition } from "@packages/components";
   const num = ref(0)
   const toggle = () => {
     num.value = mock.Random.integer(0,2);

@@ -1,11 +1,9 @@
-const BG = import.meta.glob('/public/bg/*.*');
+import BAIDU from './src/icon/百度.png';
+import FANYI from './src/icon/百度翻译.png';
+import BILI from './src/icon/bilibili.png';
+import CSDN from './src/icon/csdn.png';
 
-import BAIDU from './icon/百度.png';
-import FANYI from './icon/百度翻译.png';
-import BILI from './icon/bilibili.png';
-import CSDN from './icon/csdn.png';
-
-const bgList: string[] = [];
+const backgroundImages: any[] = [];
 const SEARCH_ICON_LIST: { text: string; icon: string }[] = [
   { text: '百度', icon: BAIDU },
   { text: '哔哩哔哩', icon: BILI },
@@ -20,8 +18,9 @@ export const searchHref = [
   'https://so.csdn.net/so/search?q=',
 ];
 
+const BG: Record<string, any> = import.meta.glob('./src/bg/*.*', { eager: true });
 Object.keys(BG).forEach((key) => {
-  bgList.push(key.substring(7));
+  backgroundImages.push(BG[key].default);
 });
 
-export { bgList, SEARCH_ICON_LIST };
+export { backgroundImages, BG, SEARCH_ICON_LIST };

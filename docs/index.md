@@ -23,17 +23,12 @@ features:
 - icon: 🛞
   title: 组件库
   details: 一个写起玩的移动端UI库
-  link: /ghui/guide/简介
+  link: /ghui/guide/1.简介
 
 - icon: 📝
   title: 博客
   details: 日常工作、学习踩坑记录
   link: /JavaScript/JS基础
-
-- icon: 🌎
-  title: 常用网站
-  details: 常用网站传送门
-  link: /webpage
 
 - icon: 🖥️
   title: ReactMacOs
@@ -58,5 +53,5 @@ features:
 <Home></Home>
 
 <script setup lang='ts'>
-import { Home } from '/components'
+import { Home } from '@packages/components';
 </script>

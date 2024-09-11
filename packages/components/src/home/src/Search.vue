@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { SEARCH_ICON_LIST, searchHref } from './utils';
+  import { SEARCH_ICON_LIST, searchHref } from '@packages/public';
   import { onMounted, ref, watch } from 'vue';
 
   const wayShow = ref(false);

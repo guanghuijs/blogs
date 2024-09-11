@@ -22,7 +22,7 @@ const realStar = end.setDate(end.getDate() + [0, 6, 5, 4, 3, 2, 1][end.getDay()]
 ```vue
 <script setup lang="ts">
   import { ref } from 'vue';
-  import { dateFormat } from '/utils/date.helper';
+  import { dateFormat } from '@packages/utils';
 
   const star = new Date('2023-03-01');
   const end = new Date('2023-07-05');
@@ -60,7 +60,7 @@ const realStar = end.setDate(end.getDate() + [0, 6, 5, 4, 3, 2, 1][end.getDay()]
 ```vue
 <script setup lang="ts">
   import { ref } from 'vue';
-  import { weeks, DateHelper } from '/utils/date.helper';
+  import { weeks, DateHelper } from '@packages/utils';
   const dateHelper = ref(DateHelper());
 </script>
 
@@ -128,7 +128,7 @@ const realStar = end.setDate(end.getDate() + [0, 6, 5, 4, 3, 2, 1][end.getDay()]
 ```vue
 <script setup lang="ts">
   import { ref } from 'vue';
-  import { chatDateFormat, dateFormat,list } from '/utils/date.helper';
+  import { chatDateFormat, dateFormat,list } from '@packages/utils';
   const chatRecord = ref(list());
 </script>
 

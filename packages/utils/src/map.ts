@@ -1,3 +1,4 @@
+// @ts-nocheck
 export async function loadBMapGL() {
   const AK = 'CIdrHeGtR84TzrwwBiXFrXnguaSZheAH';
   const BMap_URL = `https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=${AK}&callback=onBMapCallback`;

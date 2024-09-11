@@ -8,7 +8,7 @@
 </template>
 <script setup lang="ts">
   import { onMounted, ref } from 'vue';
-  import { useECharts } from '/utils/useECharts';
+  import { useECharts } from '@packages/utils';
   
   let chart;
   const helloChartRef = ref();
@@ -63,7 +63,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 // @ts-nocheck
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 
 let chart;
 const pluginChartRef = ref();
@@ -116,7 +116,7 @@ onMounted(() => {
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 
 let chart;
 const titlePositionRef = ref();
@@ -179,13 +179,13 @@ onMounted(() => {
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 import mock from 'mockjs';
 
-import clear from '/echarts/weather/clear.png';
-import cloudy from '/echarts/weather/cloudy.png';
-import rainy from '/echarts/weather/rainy.png';
-import thundershower from '/echarts/weather/thundershower.png';
+import clear from '@packages/public/src/echarts/weather/clear.png';
+import cloudy from '@packages/public/src/echarts/weather/cloudy.png';
+import rainy from '@packages/public/src/echarts/weather/rainy.png';
+import thundershower from '@packages/public/src/echarts/weather/thundershower.png';
 const weather = [clear, cloudy, rainy, thundershower];
 
 let chart;
@@ -308,7 +308,7 @@ onMounted(() => {
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 
 let chart;
 const xAxisChartRef = ref();
@@ -417,7 +417,7 @@ onMounted(() => {
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import * as echarts from 'echarts';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 import mock from 'mockjs';
 
 let chart;
@@ -499,7 +499,7 @@ onMounted(() => {
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 import mock from 'mockjs';
 
 let chart;
@@ -544,12 +544,12 @@ onMounted(() => {
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 import mock from 'mockjs';
-import clear from '/echarts/weather/clear.png';
-import cloudy from '/echarts/weather/cloudy.png';
-import rainy from '/echarts/weather/rainy.png';
-import thundershower from '/echarts/weather/thundershower.png';
+import clear from '@packages/public/src/echarts/weather/clear.png';
+import cloudy from '@packages/public/src/echarts/weather/cloudy.png';
+import rainy from '@packages/public/src/echarts/weather/rainy.png';
+import thundershower from '@packages/public/src/echarts/weather/thundershower.png';
 const weather = [clear, cloudy, rainy, thundershower];
 
 let chart;
@@ -800,7 +800,7 @@ onMounted(() => {
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useECharts } from '/utils/useECharts';
+import { useECharts } from '@packages/utils';
 
 let chart;
 const xAxisChartRef = ref();

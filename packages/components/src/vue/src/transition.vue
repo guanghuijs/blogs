@@ -1,12 +1,12 @@
 <script setup lang="ts">
   import { ref } from 'vue';
-  import mock from 'mockjs';
+  import mockJs from 'mockjs';
 
   const names = ['', 'fade', 'bounce'];
   const name = ref('');
   const onEnter = () => {};
   const onLeave = () => {
-    name.value = name[mock.Random.integer(0, 2)];
+    name.value = name[mockJs.Random.integer(0, 2)];
   };
 </script>
 

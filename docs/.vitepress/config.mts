@@ -20,16 +20,12 @@ export default defineConfig({
       demoblockVitePlugin(),
       AutoSidebar({
         prefix: '.',
-        ignoreList: ['public', 'components', 'utils'],
+        ignoreList: ['public'],
         deletePrefix: RegExp(/^\d+\s*\.\s*/),
         collapsed: false,
+        beforeCreateSideBarItems(data) {},
       }),
     ],
-  },
-  vue: {
-    script: {
-      defineModel: true,
-    },
   },
   head: [['link', { rel: 'icon', type: 'image/webp', href: '/blogs/logo.webp' }]], //网页logo配置,浏览器tab页logo
   themeConfig, //主题配置
