@@ -1,1 +1,0 @@
-import{at as t,m as s,au as u,U as m,V as d}from"./framework.KSLWugjt.js";const i={__name:"DefineModel",props:{modelValue:{},modelModifiers:{}},emits:["update:modelValue"],setup(o){const e=t(o,"modelValue");return(n,l)=>s((m(),d("input",{"onUpdate:modelValue":l[0]||(l[0]=a=>e.value=a)},null,512)),[[u,e.value]])}};export{i as _};
