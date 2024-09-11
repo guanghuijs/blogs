@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/blogs/',
   outDir: './../dist', //打包输出目录
   // todo 修改网站标题
-  title: "GUANGHUI's BLOGS",
+  title: 'iKun BLOGS',
   markdown: {
     //markdown中使用代码块
     config: (md) => {
@@ -25,6 +25,7 @@ export default defineConfig({
         prefix: '.',
         // 这里可以忽略识别目录
         ignoreList: ['public'],
+        // 删除标题前缀
         deletePrefix: RegExp(/^\d+\s*\.\s*/),
         collapsed: false,
       }),

@@ -2,20 +2,19 @@
 # https://vitepress.dev/zh/reference/default-theme-home-page
 layout: home
 
-title: GUANGHUI's BLOGS
+title: iKun BLOGS 
 titleTemplate: 
 
 hero:
-  name: "GUANGHUI's BLOGS"
-  text: 📌. 1️⃣📝🌎
-  tagline: 喜欢👩‍🎤💃🗣️🏀
+  name: "I'm iKun"
+  tagline: 唱跳 rap
   actions:
     - theme: brand
-      text: 🔩GHUI🍀
-      link: /ghui/guide/搭建组件库流程
+      text: vitepress
+      link: /vitepress/markdown指南
     - theme: alt
-      text: 📝GH's BLOGS🌿
-      link: /api-examples
+      text: 📝test
+      link: /test/测试
   image:
     src: /logo.webp
 
@@ -23,10 +22,10 @@ features:
 - icon: 📝
   title: vitepress
   details: vitepress学习
-  link: /vitepress/1.项目初始化
+  link: /vitepress/markdown指南
 
 - icon: 🛞
   title: test
   details: 测试
-  link: /test/test
+  link: /test/测试
 ---
